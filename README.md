@@ -22,11 +22,6 @@ Program to implement the linear regression using gradient descent.
 Developed by: T.LISIANA
 RegisterNumber: 212222240053 
 */
-/*
-Program to implement the linear regression using gradient descent.
-Developed by: Sirisha Onteddu
-RegisterNumber: 212222230103
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -94,23 +89,29 @@ print("For population = 35,000, we predict a profit of $"+str(round(predict1,0))
 predict2=predict(np.array([1,7]),theta)*1000
 print("For population = 70,000, we predict a profit of $"+str(round(predict2,0)))
 
-*/
-
 ```
 
 ## Output:
+
+## Profit Prediction graph
 ![image](https://github.com/lisianathiruselvan/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119389971/a0637537-8378-442b-b166-61fb935bb744)
 
+## Compute Cost Value
 ![image](https://github.com/lisianathiruselvan/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119389971/ef36aeef-7a8e-44a0-a49e-9de7d79ac58f)
 
+## h(x) Value
 ![image](https://github.com/lisianathiruselvan/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119389971/20cdf0cf-af29-4bdf-b401-8c9402405345)
 
+## Cost function using Gradient Descent Graph
 ![image](https://github.com/lisianathiruselvan/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119389971/26f782eb-eec0-4712-a54b-c8d3e02ec123)
 
+## Profit Prediction Graph
 ![image](https://github.com/lisianathiruselvan/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119389971/665a96b2-bd0a-42eb-b79f-271cbc47fa3f)
 
+## Profit for the Population 35,000
 ![image](https://github.com/lisianathiruselvan/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119389971/d9d68600-6f81-4a8e-bc38-a39c97d789e7)
 
+## Profit for the Population 70,000
 ![image](https://github.com/lisianathiruselvan/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/119389971/40dca0ba-9e1b-4c33-8c3e-d5397320160c)
 
 ## Result:
